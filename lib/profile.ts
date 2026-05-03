@@ -46,9 +46,16 @@ export const profile = {
     "Growth & Monetisation",
     "Trust & Safety",
     "Measurement & Offline Conversions",
+    // Added from resume: technical fluency explicitly listed
+    "Python & SQL",
+    "AI-Native Workflows",
   ],
 
-  certifications: ["SQL for Beginner Data Analysis"],
+  certifications: [
+    "SQL for Beginner Data Analysis",
+    // Added from resume: Udacity ML Nanodegree
+    "Nanodegree — Foundations of Machine Learning (Udacity)",
+  ],
 
   languages: ["English", "French"],
 

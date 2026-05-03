@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { profile } from "@/lib/profile";
 
 const NAV = [
   { href: "#about", label: "Profile" },
@@ -13,11 +14,12 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+        {/* Previously hard-coded string — now reads from profile so it stays in sync */}
         <Link
           href="#top"
           className="font-serif text-lg tracking-tight text-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
         >
-          Aparana Kohli
+          {profile.name}
         </Link>
         <nav
           aria-label="Primary"
