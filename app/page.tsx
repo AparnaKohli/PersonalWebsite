@@ -4,6 +4,7 @@ import { EducationSection } from "@/app/components/education-section";
 import { ExperienceSection } from "@/app/components/experience-section";
 import { Hero } from "@/app/components/hero";
 import { ContactSection } from "@/app/components/contact-section";
+import { DigitalTwinChatSection } from "@/app/components/digital-twin-chat";
 import { PortfolioSection } from "@/app/components/portfolio-section";
 import { SiteFooter } from "@/app/components/site-footer";
 import { SiteHeader } from "@/app/components/site-header";
@@ -21,6 +22,7 @@ export default function Home() {
         <ExperienceSection />
         <EducationSection />
         <PortfolioSection />
+        <DigitalTwinChatSection />
         <ContactSection />
       </main>
       <SiteFooter />

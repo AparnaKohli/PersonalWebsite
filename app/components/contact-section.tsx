@@ -10,7 +10,7 @@ export function ContactSection() {
   return (
     <section id="contact" className="mx-auto max-w-5xl px-4 py-24 sm:px-6 lg:px-8">
       <SectionHeading
-        eyebrow="05 · Contact"
+        eyebrow="06 · Contact"
         title="Contact me"
         subtitle="Direct lines for a quick sync — whether you are hiring, partnering, or debating which metric should move first."
       />
