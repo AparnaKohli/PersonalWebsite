@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# local LinkedIn/export source (keep out of repo)
+Profile.pdf
+
 # debug
 npm-debug.log*
 yarn-debug.log*
